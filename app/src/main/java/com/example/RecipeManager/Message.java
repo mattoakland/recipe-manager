@@ -1,4 +1,4 @@
-package com.example.loginapp;
+package com.example.RecipeManager;
 
 public class Message {
     public static String SENT_BY_ME = "me";

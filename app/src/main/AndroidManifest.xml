@@ -15,11 +15,22 @@
         android:theme="@style/Theme.Loginapp"
         tools:targetApi="31">
         <activity
+            android:name=".AddActivity"
+            android:label="Add Recipe"
+            android:exported="false"
+            android:parentActivityName=".RecipeActivity"/>
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false"
+            android:label="Update Recipe"
+            android:parentActivityName=".RecipeActivity"/>
+        <activity
             android:name=".RecipeActivity"
-            android:label="Recipe List"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Recipe List" />
         <activity
             android:name=".MainActivity"
+            android:label="Chat"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
